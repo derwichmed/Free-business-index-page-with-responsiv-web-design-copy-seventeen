@@ -1,0 +1,338 @@
+body > header{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: white;
+    padding-left: 35px;
+    padding-right: 35px
+}
+body > header .sigle_img img{
+    width: 250px;
+    height: 35px
+}
+body > header .nav_bar .nav_bar_item{
+    display: inline-block
+}
+body > header .nav_bar .nav_bar_item > div{
+    position: relative
+}
+body > header .nav_bar .nav_bar_item .content{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #727272;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: bold
+}
+body > header .nav_bar .nav_bar_item .content:hover{
+    background-color: #a0f447;
+    color: white
+}
+body > header .nav_bar .nav_bar_item:nth-child(1) .content{
+    background-color: #a0f447;
+    color: white
+}
+body > header .nav_bar .nav_bar_item a:hover{
+    text-decoration: none
+}
+body > header .nav_bar,
+body > header .icons_navs{
+    display: inline-block
+}
+body > header .icons_navs img{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-left: 30px
+}
+.business_description{
+    height: 550px;
+    padding-top: 100px;
+    padding-left: 35px
+}
+.business_description .tiltle{
+    background-color: rgba(225,225,225,.45);
+    padding: 10px;
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-left: #a0f447 8px solid
+}
+.business_description .label{
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 55px;
+    font-weight: bold;
+    margin-top: 40px
+}
+.business_description .description{
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 40px
+}
+.business_description input{
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 40px;
+    background-color: #a0f447;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px
+}
+.business_description input + input{
+    color: #a0f447;
+    background-color: transparent;
+}
+.liste_services_one{
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+.liste_services_one header{
+    text-align: center;
+    color: black;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 50px
+}
+.liste_services_one .item{
+    text-align: center;
+    width: 350px
+}
+.liste_services_one .item .tiltle{
+    text-align: center;
+    color: #727272;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+.liste_services_one .item .description{
+    text-align: center;
+    color: #727272;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+.liste_services_one .item .image{
+    width: 100%;
+    height: 250px
+}
+.liste_services_one .item a{
+    text-align: center;
+    color: #a0f447;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: bold
+}
+.business_description_two .image_backgroud{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+}
+.business_description_two .image_backgroud_effect{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: rgba(45,45,45,.90);
+}
+.business_description_two > div[class*=col-]{
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.business_description_two .content{
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+.business_description_two .tiltle{
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+.business_description_two .description{
+    color: #a1a1a1;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 50px
+}
+.business_description_two .input-group{
+    background-color: #a0f447;
+    border-radius: 5px;
+    border: none;
+    width: 250px;
+    height: 50px
+}
+.business_description_two .input-group img{
+    width: 55px;
+    height: 100%
+}
+.business_description_two .input-group .form-control{
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    height: 100%;
+    border: none
+}
+.business_description_two .input-group-text{
+    background-color: transparent;
+    padding: 0px;
+    border: none;
+}
+.business_description_two .input-group-text img{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px
+}
+.liste_services_two{
+    padding: 35px
+}
+.liste_services_two .item{
+    width: 250px;
+}
+.liste_services_two .item .style{
+    width: 220px;
+    height: 220px;
+    border-radius: 100%;
+    border: #e0e0e0 5px solid;
+    margin-top: 25px;
+    margin: auto;
+    margin-bottom: 20px
+}
+.liste_services_two .item .style > div{
+    margin: 0px;
+    height: 100%;
+    width: 100%
+}
+.liste_services_two .item .icon{
+    width: 95px;
+    height: 95px;
+    border-radius: 100%;
+    background-color: #787878;
+}
+.liste_services_two .item .icon > div{
+    margin: 0px;
+    height: 100%;
+    width: 100%
+}
+.liste_services_two .item .icon img{
+    width: 40px;
+    height: 40px;
+}
+.liste_services_two .item .content{
+    text-align: center;
+}
+.liste_services_two .item .content .tiltle{
+    text-align: center;
+    color: #787878;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.liste_services_two .item .content .description{
+    text-align: center;
+    color: gray;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin-top: 15px
+}
+.liste_services_two header{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px
+}
+#menu_icon{
+    display: none
+}
+@media(min-width: 900px){
+    .business_description_two .image img{
+        width: 100%;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: 300px
+    }   
+}
+@media(max-width: 900px){
+    body > header .nav_bar{
+        background-color: white;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 50px;
+        z-index: 5000;
+        display: none
+    }
+    body > header .nav_bar .nav_bar_item + .nav_bar_item{
+        display: block;
+        width: 100%;
+    }
+    body > header{
+        padding: 15px
+    }
+    body > header .sigle_img img{
+        width: 100px;
+        height: 25px
+    }
+    #menu_icon{
+        display: inline-block
+    }
+    .business_description{
+        padding: 15px
+    }
+    .business_description .label{
+        font-size: 25px
+    }
+    .business_description_two .image img{
+        width: 200px;
+        height: 200px;
+        display: block;
+        margin: auto
+    }
+}
